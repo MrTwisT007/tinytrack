@@ -4,7 +4,14 @@ This is a tiny RC tracked rover with an FPV camera. It uses a TinyDrive from Fly
 The design is flippable, the rover will operate even if upside down, but the user must adjust their control scheme accordingly as there is no orientation detection. The miniature design allows it to navigate tight crawl spaces.
 
 # What's in it?
-This repo contains the STL files for the body of the rover.
+This repo contains the STL files for the body of the rover. Component mockup STLs are also provided.
+
+# How can I build it
+The body and lid can be printed without supports. The wheel may require some supports, but ideally should be re-designed.
+
+The assembly requires a lot of post-processing on the components themselves to make sure they fit. I do not recall which camera module I used, which adds some difficulty to reproduce the design.
+
+4 lego wheels, 4 smooth pins and 2 rubber tracks are required to complete the design. They are easy to source on ebay, but TPU printed alternatives would work as well.
 
 # Photos
 <img width="1148" height="938" alt="image" src="https://github.com/user-attachments/assets/8e3751d3-447d-4c3c-95b9-5a566865f982" />
