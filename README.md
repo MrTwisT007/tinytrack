@@ -1,5 +1,5 @@
 # What's this?
-This is a tiny RC tracked rover with an FPV camera. It uses a TinyDrive from Flytron for the motor drivers, N20 motors, a miniature FPV camera and a FrSky Archer R4 receiver module. The receiver and camera modules had to be modified to make them small enough to fit into the body - the receiver had its header removed and the camera PCB was sanded to reduce its footprint. Lego wheels and rubber tracks are used. An 18350 battery is used as the main power source, the battery contacts are small magnets. A charging header and power switch are present in the lid. A TP4096 or other suitable LiIon charger must be used on the charging header
+This is a tiny RC tracked rover with an FPV camera a designed and built circa 2021. It uses a TinyDrive from Flytron for the motor drivers, N20 motors, a miniature FPV camera and a FrSky Archer R4 receiver module. The receiver and camera modules had to be modified to make them small enough to fit into the body - the receiver had its header removed and the camera PCB was sanded to reduce its footprint. Lego wheels and rubber tracks are used. An 18350 battery is used as the main power source, the battery contacts are small magnets. A charging header and power switch are present in the lid. A TP4096 or other suitable LiIon charger must be used on the charging header
 
 The design is flippable, the rover will operate even if upside down, but the user must adjust their control scheme accordingly as there is no orientation detection. The miniature design allows it to navigate tight crawl spaces.
 
@@ -9,9 +9,11 @@ This repo contains the STL files for the body of the rover. Component mockup STL
 # How can I build it
 The body and lid can be printed without supports. The wheel may require some supports, but ideally should be re-designed.
 
-The assembly requires a lot of post-processing on the components themselves to make sure they fit. I do not recall which camera module I used, which adds some difficulty to reproduce the design.
+The assembly requires a lot of post-processing on the components themselves to make sure they fit. I do not recall which camera module I used, which adds some difficulty to reproduce the design. A JST header and micro switch should be fitted into the lid, exact SKUs I, unfortunately, do not recall.
 
 4 lego wheels, 4 smooth pins and 2 rubber tracks are required to complete the design. They are easy to source on ebay, but TPU printed alternatives would work as well.
+
+4 M3 machine screws hold the lid closed, ideally low profile screw tops.
 
 # Photos
 <img width="1148" height="938" alt="image" src="https://github.com/user-attachments/assets/8e3751d3-447d-4c3c-95b9-5a566865f982" />
